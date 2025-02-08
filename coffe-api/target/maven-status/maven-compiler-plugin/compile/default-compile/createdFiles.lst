@@ -1,0 +1,6 @@
+org/miracle/dto/RecipeDTO.class
+org/miracle/dto/DrinkDTO$DrinkDTOBuilder.class
+org/miracle/dto/DrinkDTO.class
+org/miracle/dto/RecipeDTO$RecipeDTOBuilder.class
+org/miracle/dto/IngredientDTO.class
+org/miracle/dto/IngredientDTO$IngredientDTOBuilder.class

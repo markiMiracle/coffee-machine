@@ -1,0 +1,18 @@
+CREATE TABLE drinks (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    recipe_id BIGINT UNIQUE,
+    popularity INT DEFAULT 0,
+    created_at DATE DEFAULT CURRENT_DATE
+);
+
+CREATE TABLE ingredients (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    quantity INT NOT NULL
+);
+
+CREATE TABLE recipes (
+    id SERIAL PRIMARY KEY,
+    drink VARCHAR(255) NOT NULL UNIQUE
+);
